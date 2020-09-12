@@ -2,6 +2,17 @@ body {
     background-color: aquamarine;
     text-align: center;
 }
+header {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.headerbox {
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
 h1 {
     color: chocolate;
 }
