@@ -11,12 +11,13 @@ header {
 .headerbox {
     line-height: 1.5;
     text-transform: uppercase;
+    color: purple;
 }
 
 h1 {
     color: chocolate;
 }
 
-p {
-    color: purple;
+.parrafo {
+    font-size: 30px;
 }
