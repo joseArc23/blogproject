@@ -7,17 +7,22 @@ header {
     width: 70%;
     margin: 0 auto;
     border: 1px solid black;
+    background: #33A;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .5);
+    color: white;
+    padding: .5em;
 }
 
 .headerbox {
     line-height: 1.5;
     text-transform: uppercase;
+    color: purple;
 }
 
 h1 {
     color: chocolate;
 }
 
-p {
-    color: purple;
+.parrafo {
+    font-size: 30px;
 }
