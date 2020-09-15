@@ -1,16 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: peru;
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
+img {
+    width: 200px;
+}
+
 header {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid black;
-    background: #33A;
+    background: gray;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .5);
     color: white;
     padding: .5em;
+    display: flex;
+    flex-direction: row;
 }
 
 .headerbox {
@@ -19,10 +29,7 @@ header {
     color: purple;
 }
 
-h1 {
-    color: chocolate;
-}
-
 .parrafo {
-    font-size: 30px;
+    line-height: 1.5;
+    font-size: 16px;
 }
